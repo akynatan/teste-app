@@ -1,7 +1,0 @@
-[context.develop.environment]
-  NODE_ENV = "development"
-  AMPLITUDE_KEY = "b55705d6082a2b13eb7db5e575fa6126"
-
-[context.homolog.environment]
-  NODE_ENV = "staging"
-  AMPLITUDE_KEY = "b55705d6082a2b13eb7db5e575fa6126"
