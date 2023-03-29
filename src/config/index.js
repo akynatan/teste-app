@@ -21,7 +21,7 @@ const ENVIRONMENT = {
     publicacao: 'https://homolog-publicacao.mlabs.com.br',
   },
   production: {
-    app: 'https://mlabs-trello-power-up.netlify.app',
+    app: 'https://joyful-seahorse-0bb418.netlify.app',
     core: 'https://core-api.mlabs.com.br',
     post: 'https://post-api.mlabs.com.br',
     files: 'https://files.mlabs.com.br',
