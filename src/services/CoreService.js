@@ -4,7 +4,7 @@ export const signIn = async ({ email, password }) => {
   return authApi.post('/v1/accounts/sign_in', {
     email,
     password,
-    callback_url: 'http://localhost:4000',
+    callback_url: 'https://mlabs.com.br',
   });
 };
 
