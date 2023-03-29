@@ -97,8 +97,10 @@ export const AppProvider = ({ children }) => {
   const storeAccountId = (accountId) => t.set('member', 'private', 'account-id', accountId);
 
   useEffect(() => {
-    t.storeSecret('token', token);
-    setAuthorization(token);
+    if (token) {
+      t.storeSecret('token', token);
+      setAuthorization(token);
+    }
   }, [token]);
 
   const loadPagesByProfile = async () => {
