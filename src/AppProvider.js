@@ -98,7 +98,7 @@ export const AppProvider = ({ children }) => {
 
   useEffect(() => {
     console.log('Token', token)
-    token && t.storeSecret('token', token);
+    t.storeSecret('token', token);
     setAuthorization(token);
   }, [token]);
 
