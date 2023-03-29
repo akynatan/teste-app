@@ -97,7 +97,6 @@ export const AppProvider = ({ children }) => {
   const storeAccountId = (accountId) => t.set('member', 'private', 'account-id', accountId);
 
   useEffect(() => {
-    console.log('Token', token)
     t.storeSecret('token', token);
     setAuthorization(token);
   }, [token]);
@@ -117,7 +116,7 @@ export const AppProvider = ({ children }) => {
 
       setPages(pagesData);
       setIsLoadingPages(false);
-    } catch (err) { }
+    } catch (err) {}
   };
 
   useEffect(() => {
