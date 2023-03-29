@@ -23,9 +23,6 @@ const environmentOptions = () => {
   return {
     mode: 'development',
     devtool: 'eval-source-map',
-    optimization: {
-      minimize: false
-    },
     devServer: {
       contentBase: path.join(__dirname, 'dist'),
       compress: true,
